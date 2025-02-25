@@ -1,0 +1,44 @@
+.main{
+    display: flex; /* item do lado do outro */
+    flex-direction: column; /* direção coluna */
+    width: 1140px; /* largura da div */
+    margin: 110px auto; /* centralizar div com auto */
+    gap: 60px; /* espaçamento entre os filhos */
+
+    & h1{
+        font-size: 48px;
+        text-transform: uppercase; /* todo texto maiusculo */
+    }
+
+    & .container{
+        display: flex;
+        align-items: center;
+        gap: 80px;
+
+        & .lado-esquerdo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            & p{
+                margin-bottom: 60px;
+                font-size: 20px;
+            }
+
+            & a{
+                display: flex;
+                justify-content: center;
+                width: 336px;
+                padding: 20px;
+                border-radius: 100px;
+
+                background-color: #002C94;
+                color: white;
+                font-size: 20px;
+                box-shadow: 1px 3px 5px rgb(95, 95, 95);
+            }
+        }
+    }
+    
+}
+

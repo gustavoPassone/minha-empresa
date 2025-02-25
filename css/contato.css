@@ -1,0 +1,88 @@
+
+.contato{
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 410px;
+    gap: 165px;
+
+    & .esquerdo{
+        display: flex;
+        flex-direction: column;
+        width: 409px;
+        height: 407px;
+        gap: 47px;
+        
+        & p{
+            font-size: 20px;
+        }
+
+        & .cor{
+            color: #436CCE;
+        }
+
+        & h1{
+            font-size: 45px;  
+        }
+
+        & a{
+            color: black;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    }
+
+
+    & .form-container {
+        display: flex;
+        flex-direction: column;
+        width: 485px;
+        height: 370px;
+        padding: 20px;
+        gap: 40px;
+        
+        & h2 {
+            font-size: 28px;
+        }
+
+        & form{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+            
+            & input, textarea{
+                display: flex;
+                outline: unset;
+                border: none;
+                background-color: #F2F2F2;
+                padding: 12px;
+                font-size: 15px;
+            }
+
+            & input{
+                width: 445px;
+                height: 48px;
+            }
+
+            & textarea{
+                width: 445px;
+                height: 180px;
+            }
+
+            & button{
+                display: flex;
+                justify-content: center;
+                width: 180px;
+                border-radius: 80px;
+                padding: 8px;
+                font-size: 16px;
+
+                color: white;
+                background-color: #002C94;
+                border: none;
+                box-shadow: 1px 3px 5px rgb(95, 95, 95);
+            }
+        }
+       
+    }
+}

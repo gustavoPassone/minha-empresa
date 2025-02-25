@@ -1,0 +1,52 @@
+.portfolio
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+    padding: 50px;
+
+    & h1{
+        font-size: 48px;
+        text-transform: uppercase;
+        margin-bottom: 38px;
+    }
+
+    & .container{
+        display: flex;
+        width: 1141px;
+        height: 503px;
+        gap: 55px;
+        justify-content: center;
+
+        & p{
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+            font-weight: 550;
+            
+        }
+        
+        & a{
+            display: flex;
+            justify-content: center;
+            width: 160px;
+            border-radius: 100px;
+            padding: 15px;
+            
+            font-size: 20px;
+            color: white;
+            background-color: #002C94;
+            box-shadow: 1px 5px 15px rgb(95, 95, 95);
+        }
+
+        & .projeto1, .projeto2, .projeto3 {
+            display: flex;
+            flex-direction: column; /* Organiza os itens em coluna */
+            gap: 20px;              /* Adiciona espaço entre a imagem, o texto e o botão */
+            align-items: center;    /* Centraliza os itens */
+        }
+        
+    }
+}
+
